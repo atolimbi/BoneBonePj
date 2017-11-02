@@ -333,6 +333,8 @@ MonoBehaviour:
   - {fileID: 1000012803156344, guid: 01b88ee051000074c8b0532d5b170bb3, type: 2}
   - {fileID: 1000013489234818, guid: b68b4d70d0efbac45ba8cc5c8edec258, type: 2}
   bulletOnCannon: {fileID: 0}
+  bulletsOnScreen: 0
+  ammoCannon: 5
 --- !u!4 &1465238325
 Transform:
   m_ObjectHideFlags: 0
@@ -433,7 +435,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5d0e635635f935e4e823d61d5214f8cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -557,7 +559,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 96c63c553bc4d874480a7f0b6389e413, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -619,7 +621,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9df4ddfd0f686574b8b633475ebc7893, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

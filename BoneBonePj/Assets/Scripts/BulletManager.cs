@@ -5,7 +5,8 @@ public class BulletManager : MonoBehaviour {
 
 	public GameObject[] bulletTypes;
 	public GameObject bulletOnCannon;
-
+	public int bulletsOnScreen;
+	public int ammoCannon;
 
 
 	private int currentBulletType;
@@ -16,6 +17,7 @@ public class BulletManager : MonoBehaviour {
 		currentBulletType = 0;
 		qtyBulletTypes = bulletTypes.Length - 1;
 		bulletOnCannon = bulletTypes [currentBulletType];
+		bulletsOnScreen = 0;
 
 	}
 	

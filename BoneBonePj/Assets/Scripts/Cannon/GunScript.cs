@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class GunScript : MonoBehaviour {
 
-	public GameObject[] bullets;
+	/*public GameObject[] bullets;
 	public Text mainCanvasBullets;
 	public Text mainCanvasSpeed;
 	public float timeBetweenShots;
@@ -70,5 +70,5 @@ public class GunScript : MonoBehaviour {
 				
 		}
 	
-	}
+	}*/
 }
